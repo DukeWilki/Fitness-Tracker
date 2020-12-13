@@ -35,10 +35,14 @@ const workoutSchema = new Schema({
       required: "Enter number of reps"
     },
     }],
-    date: {
+    day: {
       type: Date,
-      default: Date.now
-    }
+      default: new Date()
+    },
+    totalDuration: {
+        type: Number,
+        default: 0
+      }
   });
   
   const Workout = mongoose.model("Workout", workoutSchema);
