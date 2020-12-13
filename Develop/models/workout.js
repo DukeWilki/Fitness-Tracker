@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-onst workoutSchema = new Schema({
-    exercises: [
+const workoutSchema = new Schema({
+    exercises: [{
     name: {
       type: String,
       trim: true,
@@ -34,7 +34,7 @@ onst workoutSchema = new Schema({
       type: Number,
       required: "Enter number of reps"
     },
-    ],
+    }],
     date: {
       type: Date,
       default: Date.now
