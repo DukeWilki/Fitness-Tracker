@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+require('dotenv').config()
 // const web = require("./routes/web");
 // const morgan = require("morgan");
 // const path = require("path");
@@ -14,8 +15,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-
-mongoose.connect("mongodb+srv://DukeWilki:Queenw00d.@cluster0.5etbj.mongodb.net/workout?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGOLAB_URI, {
   useNewUrlParser: true,
   useFindAndModify: false
 });
