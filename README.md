@@ -30,9 +30,9 @@ Visit the app in Heroku:
  5. When workouty is complete, press "Complete" 6. To see your progress, click on 'Dashboard' in the nav bar. 
 
 ## Screen Shots
-![Screenshot 1](https://github.com/DukeWilki/Workout-Tracker/blob/master/assets/jog/index.jpg)
-![Screenshot 2](https://github.com/DukeWilki/Workout-Tracker/blob/master/assets/jog/cardio.jpg)
-![Screenshot 3](https://github.com/DukeWilki/Workout-Tracker/blob/master/assets/jog/dashboard.jpg)
+![Screenshot 1](https://github.com/DukeWilki/Workout-Tracker/blob/main/assets/img/index.jpg)
+![Screenshot 2](https://github.com/DukeWilki/Workout-Tracker/blob/main/assets/img/cardio.jpg)
+![Screenshot 3](https://github.com/DukeWilki/Workout-Tracker/blob/main/assets/img/dashboard.jpg)
 
 ## License
 This application has Apache 2.0 applied.
