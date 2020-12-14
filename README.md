@@ -20,7 +20,7 @@ Workout-Tracker is an application that tracks resistance and cardio training of 
 This applictaion is made up of: Front end files in /public include and html and js file for each of the three pages, as well as two other js files and a css file. /models inclueds the model to store data in MongoDB. /routes contains two js files dictating api routes and page (web) routes. Seed data for the app is located in /seeders. The main file is server.js where the app is run.
 
 ## Installation
-Visit the app in Heroku: 
+Visit the app in Heroku: https://polar-castle-82757.herokuapp.com/
 
 ## Usage
  1. To start a new workout, click 'New workout'. 
